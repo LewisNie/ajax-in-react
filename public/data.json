@@ -1,0 +1,32 @@
+[
+  {
+    "image": "https://sep.yimg.com/ty/cdn/entirelypets/chews1_768x277.jpg",
+    "link": "http://www.entirelypets.com/sale.html"
+  },
+  {
+    "image": "https://sep.yimg.com/ty/cdn/entirelypets/joint-max_768x277.jpg",
+    "link": "http://www.entirelypets.com/jointmaxts3.html"
+  },
+  {
+    "image": "https://sep.yimg.com/ty/cdn/entirelypets/frontline_768x277.jpg",
+    "link": "http://www.entirelypets.com/frontline-gold-for-dogs.html"
+  },
+  {
+    "image": "https://sep.yimg.com/ty/cdn/entirelypets/proflora_768x277.jpg",
+    "link": "http://www.entirelypets.com/proflora-probiotic-soft-chews.html"
+  },
+  {
+    "image": "https://sep.yimg.com/ty/cdn/entirelypets/vetriscience1_768x277.jpg",
+    "link": "http://www.entirelypets.com/vetriscience.html",
+    "bgColor": "#ffffff"
+  },
+  {
+    "image": "https://sep.yimg.com/ty/cdn/entirelypets/zylekene_768x277.jpg",
+    "link": "http://www.entirelypets.com/vetoquinol-zylkene.html",
+    "bgColor": "#ffffff"
+  },
+  {
+    "image": "https://sep.yimg.com/ty/cdn/entirelypets/cold-weather_768x277.jpg",
+    "link": "http://www.entirelypets.com/coldweather.html?filter"
+  }
+]
