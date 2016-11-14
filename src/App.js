@@ -3,13 +3,14 @@
  */
 import React, {Component} from 'react';
 import {render} from 'react-dom';
+import Carousel from './carousel';
 import 'whatwg-fetch';
 
 class BankApp extends Component{
     constructor(){
         super(...arguments);
         this.state = {
-            data :{}
+            data: []
         }
     }
 
@@ -17,18 +18,34 @@ class BankApp extends Component{
         fetch('data.json').then((response)=>response.json())
             .then((responseData)=>{
                 this.setState({data:responseData});
+                console.log(this.state.data);
+                //alert('hello');
+             //   $('#carousel').slick();
+
+
             })
     }
 
+
     componentDidMount(){
         this.fetchData();
-        console.log("dfd");
+        console.log('amounted');
     }
     render(){
-        let data = this.data;
-        console.log(data);
+        // let data = this.state.data;
+        // console.log(data);
+        let data = this.state.data.map((data)=> {
+            console.log('hello');
+            return (
+                <div key={data.id}><img src={data.image}/></div>
+            )
+        });
         return (
-            <div>hello world dsffd {data}</div>
+            <div>
+                <h1>hello world dsffd</h1>
+                {/*<div id="carousel">{data}</div>*/}
+                <Carousel data={this.state.data}/>
+            </div>
         );
     }
 }
